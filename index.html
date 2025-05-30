@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Cool Calendar</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background: linear-gradient(135deg, #1d2b64, #f8cdda);
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    header {
+      text-align: center;
+      padding: 2rem;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 2.5rem;
+      font-weight: 700;
+    }
+
+    .calendar-container {
+      background-color: rgba(255, 255, 255, 0.1);
+      border-radius: 10px;
+      padding: 1rem;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+      max-width: 95%;
+      margin-bottom: 2rem;
+    }
+
+    iframe {
+      border: none;
+      width: 100%;
+      max-width: 800px;
+      height: 600px;
+      border-radius: 10px;
+    }
+
+    footer {
+      margin-top: auto;
+      padding: 1rem;
+      font-size: 0.9rem;
+      opacity: 0.7;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Pfadi NLB - Google Kalender</h1>
+    <p>Live online Ansicht</p>
+  </header>
+
+  <div class="calendar-container">
+    <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=Europe%2FZurich&showPrint=0&src=MDJlNDdiZjQ1ZDIxNDQ5MzYzMzkxNzNhMDgzODJlODUzN2U0ODRlNzQ1NDQ2ZGFkYzY5YTc3ZmM0Y2U1ZjMwM0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23795548" 
+      frameborder="0" scrolling="no">
+    </iframe>
+  </div>
+
+  <footer>
+    &copy; 2025 Nils Tellenbach — Hosted on GitHub Pages
+  </footer>
+
+</body>
+</html>
+
